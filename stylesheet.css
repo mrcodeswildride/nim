@@ -1,0 +1,43 @@
+body {
+    background-color: beige;
+}
+
+#instructions {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.pile {
+    margin-bottom: 20px;
+}
+
+.pileCount {
+    display: inline-block;
+    font-size: 24px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    margin: 0px;
+    margin-right: 30px;
+}
+
+label {
+    margin: 0px;
+    margin-right: 5px;
+}
+
+input,
+button {
+    padding: 5px;
+}
+
+input {
+    width: 40px;
+    margin-right: 10px;
+}
+
+#turn {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}

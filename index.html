@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nim</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <h1>Nim</h1>
+
+    <p id="instructions">
+        Two player game. Each turn, take at least one item from a single pile. You win if you take the last item.
+    </p>
+
+    <div class="pile">
+        <p id="pile1Count" class="pileCount">1st pile: 3</p>
+        <label for="pile1Input">Number to take:</label>
+        <input id="pile1Input" type="number" min="1" max="3" />
+        <button id="pile1Button">Take</button>
+    </div>
+
+    <div class="pile">
+        <p id="pile2Count" class="pileCount">2nd pile: 4</p>
+        <label for="pile2Input">Number to take:</label>
+        <input id="pile2Input" type="number" min="1" max="4" />
+        <button id="pile2Button">Take</button>
+    </div>
+
+    <div class="pile">
+        <p id="pile3Count" class="pileCount">3rd pile: 5</p>
+        <label for="pile3Input">Number to take:</label>
+        <input id="pile3Input" type="number" min="1" max="5" />
+        <button id="pile3Button">Take</button>
+    </div>
+
+    <p id="turn">Player 1's turn</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
