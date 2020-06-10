@@ -1,0 +1,33 @@
+body {
+  background-color: beige;
+}
+
+p {
+  font-size: 24px;
+}
+
+.pile {
+  margin-bottom: 20px;
+}
+
+.pileParagraph {
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 30px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+input,
+button {
+  padding: 5px;
+}
+
+input {
+  width: 40px;
+  margin-right: 10px;
+}
