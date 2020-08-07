@@ -26,3 +26,7 @@ input {
 button {
   padding: 5px 10px;
 }
+
+.win {
+  color: #ff4c00;
+}

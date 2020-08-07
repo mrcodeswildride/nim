@@ -80,7 +80,7 @@ function takePile3() {
 
 function switchTurn() {
   if (pile1 == 0 && pile2 == 0 && pile3 == 0) {
-    turnParagraph.style.color = `#ff4c00`
+    turnParagraph.classList.add(`win`)
     turnParagraph.innerHTML = `${turn} wins`
   }
   else {
