@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Nim</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-	<title>Nim</title>
-	<meta name="viewport" content="width=device-width, initial-scale=0.75">
-	<link href="style.css" rel="stylesheet">
-	<script src="script.js" defer>
+  <body>
+    <h1>Nim</h1>
 
-	</script>
-</head>
+    <p>
+      Two player game. Each turn, take at least one item from a single pile. You win if you take the
+      last item.
+    </p>
 
-<body>
-	<h1>Nim</h1>
+    <div class="row">
+      <p class="pileParagraph" id="pile1Paragraph">1st pile: 3</p>
+      <input type="number" min="1" max="3" id="pile1Input" />
+      <button id="pile1Button">Take</button>
+    </div>
 
-	<p>
-		Two player game. Each turn, take at least one item from a single pile. You win if you take the last item.
-	</p>
+    <div class="row">
+      <p class="pileParagraph" id="pile2Paragraph">2nd pile: 4</p>
+      <input type="number" min="1" max="4" id="pile2Input" />
+      <button id="pile2Button">Take</button>
+    </div>
 
-	<div class="row">
-		<p class="pileParagraph" id="pile1Paragraph">1st pile: 3</p>
-    <input type="number" min="1" max="3" id="pile1Input">
-    <button id="pile1Button">Take</button>
-  </div>
+    <div class="row">
+      <p class="pileParagraph" id="pile3Paragraph">3rd pile: 5</p>
+      <input type="number" min="1" max="5" id="pile3Input" />
+      <button id="pile3Button">Take</button>
+    </div>
 
-  <div class="row">
-    <p class="pileParagraph" id="pile2Paragraph">2nd pile: 4</p>
-    <input type="number" min="1" max="4" id="pile2Input">
-    <button id="pile2Button">Take</button>
-  </div>
-
-  <div class="row">
-    <p class="pileParagraph" id="pile3Paragraph">3rd pile: 5</p>
-    <input type="number" min="1" max="5" id="pile3Input">
-    <button id="pile3Button">Take</button>
-  </div>
-
-  <p id="turnParagraph">Player 1's turn</p>
-</body>
-
+    <p id="turnParagraph">Player 1's turn</p>
+  </body>
 </html>

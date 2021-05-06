@@ -82,12 +82,10 @@ function switchTurn() {
   if (pile1 == 0 && pile2 == 0 && pile3 == 0) {
     turnParagraph.classList.add(`win`)
     turnParagraph.innerHTML = `${turn} wins`
-  }
-  else {
+  } else {
     if (turn == `Player 1`) {
       turn = `Player 2`
-    }
-    else if (turn == `Player 2`) {
+    } else if (turn == `Player 2`) {
       turn = `Player 1`
     }
 
